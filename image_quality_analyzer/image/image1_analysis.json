@@ -1,0 +1,153 @@
+{
+  "image_info": {
+    "filename": "image1.jpg",
+    "full_path": "../image/image1.jpg",
+    "width": 2304,
+    "height": 4096,
+    "megapixels": 9.44,
+    "aspect_ratio": 0.562,
+    "file_size_kb": 4913.7
+  },
+  "camera_info": {
+    "camera_make": "--",
+    "camera_model": "--",
+    "date_time": "2025:07:12 18:34:03",
+    "shutter_speed": "0.0s",
+    "aperture": "f/0.0",
+    "iso": 0,
+    "focal_length": "0.0mm"
+  },
+  "advanced_metrics": {
+    "sharpness": {
+      "laplacian_variance": 1071.8564500439645,
+      "gradient_mean": 86.53218630218753,
+      "gradient_std": 114.26905635623102,
+      "tenengrad": 20545.236506779987,
+      "brenner": 52.87500466468545,
+      "focus_measure": 22.94113032023112,
+      "regional_sharpness": {
+        "mean": 1076.5040468700872,
+        "std": 1013.5962499412135,
+        "max": 2889.2526459880833,
+        "min": 25.119601777858204
+      }
+    },
+    "noise": {
+      "high_frequency_noise": 48.88844085679848,
+      "pixel_noise_mean": 3.4655384487575955,
+      "pixel_noise_std": 6.4031463168784635,
+      "gaussian_noise": 5.813217873412801,
+      "snr_mean": -10.69470574959961,
+      "snr_std": 3.5627280146069653,
+      "color_noise": {
+        "red": 48.86605943503591,
+        "green": 48.90031611648077,
+        "blue": 48.98327488752663,
+        "temporal": 0.04921059079739808
+      }
+    },
+    "depth_of_field": {
+      "gradient_magnitude_mean": 86.53218630218753,
+      "gradient_magnitude_std": 114.26905635623102,
+      "sharpness_map_mean": 3.5262573030259876,
+      "sharpness_map_std": 5.292941759044931,
+      "bokeh_count": 7823,
+      "bokeh_quality": 35.046074606330585,
+      "depth_separation": 797.0655586972377,
+      "center_sharpness": 1145.1604248140793,
+      "border_sharpness": 348.0948661168416,
+      "focus_transitions": 117.47367101667047
+    },
+    "objects_background": {
+      "edge_density": 40.132034619649254,
+      "contour_count": 29766,
+      "contour_areas": {
+        "mean": 613.3934748427673,
+        "std": 4352.32201506405,
+        "max": 146282.5
+      },
+      "contour_complexity": 1774.2608842301843,
+      "object_background_ratio": 0.27965619828965926,
+      "background_uniformity": 0.8833079995497846,
+      "object_complexity": 0.13112585129637272
+    },
+    "color_analysis": {
+      "rgb_stats": {
+        "r_mean": 99.75942717658148,
+        "g_mean": 92.5036154852973,
+        "b_mean": 75.8714918560452,
+        "r_std": 54.172225811937935,
+        "g_std": 52.81606302739937,
+        "b_std": 48.58772764633857
+      },
+      "hsv_stats": {
+        "hue_mean": 23.900490760803223,
+        "saturation_mean": 68.67413086361356,
+        "value_mean": 100.373548189799,
+        "hue_std": 9.876642625293716,
+        "saturation_std": 42.82775608059095,
+        "value_std": 54.723215718266154
+      },
+      "lab_stats": {
+        "lightness_mean": 98.49294228023953,
+        "a_mean": 128.2005761464437,
+        "b_mean": 138.62616390652127,
+        "lightness_std": 54.969738081249126,
+        "a_std": 5.648114677244038,
+        "b_std": 7.130648682485571
+      },
+      "color_temperature": 5185.152687311592,
+      "white_balance_error": 9.99948772908019,
+      "dominant_hues": [
+        23,
+        24,
+        21,
+        26,
+        22
+      ],
+      "saturation_uniformity": 25.528772263245493
+    },
+    "texture": {
+      "lbp_uniformity": 0.09506055887466595,
+      "gabor_responses": [
+        37.382046075553696,
+        27.338920044063816,
+        36.50017168920147,
+        32.44922181297906
+      ],
+      "texture_energy": 2727.8521080897217,
+      "edge_density_mean": 40.132034619649254,
+      "edge_density_std": 36.5242576028069
+    },
+    "exposure": {
+      "shadows": 0.32811641693115234,
+      "midtones": 0.6060220003128052,
+      "highlights": 0.06586159765720367,
+      "underexposed": 0.0007909139385446906,
+      "overexposed": 0.0006892945966683328,
+      "dynamic_range": 255.0,
+      "rms_contrast": 52.228843641131114,
+      "michelson_contrast": 1.0,
+      "exposure_uniformity": 0.8728727778026875
+    },
+    "composition": {
+      "thirds_balance": 0.7020446879369737,
+      "center_emphasis": -21.739386664496536,
+      "horizontal_symmetry": 0.02053429268202967,
+      "line_count": 8207
+    }
+  },
+  "quality_scores": {
+    "sharpness": 10.718564500439646,
+    "noise": 2.223118286403036,
+    "depth_of_field": 15.941311173944754,
+    "object_clarity": 88.71304421150921,
+    "color_quality": 80.00102454183963,
+    "texture": 54.557042161794435,
+    "exposure": 60.60220003128052,
+    "composition": 70.20446879369737,
+    "overall": 40.76598308055933
+  },
+  "grade": "F (Unacceptable)",
+  "analysis_date": "2025-07-15T00:32:00.853732"
+}
