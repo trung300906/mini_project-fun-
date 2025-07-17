@@ -1,0 +1,218 @@
+#pragma once
+// Explicit template instantiations
+template void sum_avx512<float>(const float *, size_t, float &);
+template void sum_avx512<double>(const double *, size_t, double &);
+template void sum_avx512<int>(const int *, size_t, int &);
+template void sum_avx512<long>(const long *, size_t, long &);
+template void sum_avx512<short>(const short *, size_t, short &);
+template void sum_avx512<long long>(const long long *, size_t, long long &);
+template void sum_avx512<unsigned int>(const unsigned int *, size_t, unsigned int &);
+template void sum_avx512<unsigned long>(const unsigned long *, size_t, unsigned long &);
+template void sum_avx512<unsigned long long>(const unsigned long long *, size_t, unsigned long long &);
+template void sum_avx512<unsigned short>(const unsigned short *, size_t, unsigned short &);
+
+template void simd_cast<float, double>(const float *, double *, size_t);
+template void simd_cast<double, float>(const double *, float *, size_t);
+template void simd_cast<float, int>(const float *, int *, size_t);
+template void simd_cast<int, float>(const int *, float *, size_t);
+template void simd_cast<float, long>(const float *, long *, size_t);
+template void simd_cast<long, float>(const long *, float *, size_t);
+template void simd_cast<float, short>(const float *, short *, size_t);
+template void simd_cast<short, float>(const short *, float *, size_t);
+template void simd_cast<float, long long>(const float *, long long *, size_t);
+template void simd_cast<long long, float>(const long long *, float *, size_t);
+template void simd_cast<float, unsigned int>(const float *, unsigned int *, size_t);
+template void simd_cast<unsigned int, float>(const unsigned int *, float *, size_t);
+template void simd_cast<float, unsigned long>(const float *, unsigned long *, size_t);
+template void simd_cast<unsigned long, float>(const unsigned long *, float *, size_t);
+template void simd_cast<float, unsigned short>(const float *, unsigned short *, size_t);
+template void simd_cast<unsigned short, float>(const unsigned short *, float *, size_t);
+template void simd_cast<float, unsigned long long>(const float *, unsigned long long *, size_t);
+template void simd_cast<unsigned long long, float>(const unsigned long long *, float *, size_t);
+
+template void simd_sin<float>(float *, size_t);
+template void simd_sin<double>(double *, size_t);
+template void simd_sin<int>(int *, size_t);
+template void simd_sin<long>(long *, size_t);
+template void simd_sin<short>(short *, size_t);
+template void simd_sin<long long>(long long *, size_t);
+template void simd_sin<unsigned int>(unsigned int *, size_t);
+template void simd_sin<unsigned long>(unsigned long *, size_t);
+template void simd_sin<unsigned long long>(unsigned long long *, size_t);
+template void simd_sin<unsigned short>(unsigned short *, size_t);
+
+template void simd_cos<float>(float *, size_t);
+template void simd_cos<double>(double *, size_t);
+template void simd_cos<int>(int *, size_t);
+template void simd_cos<long>(long *, size_t);
+template void simd_cos<short>(short *, size_t);
+template void simd_cos<long long>(long long *, size_t);
+template void simd_cos<unsigned int>(unsigned int *, size_t);
+template void simd_cos<unsigned long>(unsigned long *, size_t);
+template void simd_cos<unsigned long long>(unsigned long long *, size_t);
+template void simd_cos<unsigned short>(unsigned short *, size_t);
+
+template void simd_tan<float>(float *, size_t);
+template void simd_tan<double>(double *, size_t);
+template void simd_tan<int>(int *, size_t);
+template void simd_tan<long>(long *, size_t);
+template void simd_tan<short>(short *, size_t);
+template void simd_tan<long long>(long long *, size_t);
+template void simd_tan<unsigned int>(unsigned int *, size_t);
+template void simd_tan<unsigned long>(unsigned long *, size_t);
+template void simd_tan<unsigned long long>(unsigned long long *, size_t);
+template void simd_tan<unsigned short>(unsigned short *, size_t);
+
+template void simd_arcsin<float>(float *, size_t);
+template void simd_arcsin<double>(double *, size_t);
+template void simd_arcsin<int>(int *, size_t);
+template void simd_arcsin<long>(long *, size_t);
+template void simd_arcsin<short>(short *, size_t);
+template void simd_arcsin<long long>(long long *, size_t);
+template void simd_arcsin<unsigned int>(unsigned int *, size_t);
+template void simd_arcsin<unsigned long>(unsigned long *, size_t);
+template void simd_arcsin<unsigned long long>(unsigned long long *, size_t);
+template void simd_arcsin<unsigned short>(unsigned short *, size_t);
+
+template void simd_arccos<float>(float *, size_t);
+template void simd_arccos<double>(double *, size_t);
+template void simd_arccos<int>(int *, size_t);
+template void simd_arccos<long>(long *, size_t);
+template void simd_arccos<short>(short *, size_t);
+template void simd_arccos<long long>(long long *, size_t);
+template void simd_arccos<unsigned int>(unsigned int *, size_t);
+template void simd_arccos<unsigned long>(unsigned long *, size_t);
+template void simd_arccos<unsigned long long>(unsigned long long *, size_t);
+template void simd_arccos<unsigned short>(unsigned short *, size_t);
+
+template void simd_arctan<float>(float *, size_t);
+template void simd_arctan<double>(double *, size_t);
+template void simd_arctan<int>(int *, size_t);
+template void simd_arctan<long>(long *, size_t);
+template void simd_arctan<short>(short *, size_t);
+template void simd_arctan<long long>(long long *, size_t);
+template void simd_arctan<unsigned int>(unsigned int *, size_t);
+template void simd_arctan<unsigned long>(unsigned long *, size_t);
+template void simd_arctan<unsigned long long>(unsigned long long *, size_t);
+template void simd_arctan<unsigned short>(unsigned short *, size_t);
+
+template void simd_cotan<float>(float *, size_t);
+template void simd_cotan<double>(double *, size_t);
+template void simd_cotan<int>(int *, size_t);
+template void simd_cotan<long>(long *, size_t);
+template void simd_cotan<short>(short *, size_t);
+template void simd_cotan<long long>(long long *, size_t);
+template void simd_cotan<unsigned int>(unsigned int *, size_t);
+template void simd_cotan<unsigned long>(unsigned long *, size_t);
+template void simd_cotan<unsigned long long>(unsigned long long *, size_t);
+template void simd_cotan<unsigned short>(unsigned short *, size_t);
+
+template void simd_sinh<float>(float *, size_t);
+template void simd_sinh<double>(double *, size_t);
+template void simd_sinh<int>(int *, size_t);
+template void simd_sinh<long>(long *, size_t);
+template void simd_sinh<short>(short *, size_t);
+template void simd_sinh<long long>(long long *, size_t);
+template void simd_sinh<unsigned int>(unsigned int *, size_t);
+template void simd_sinh<unsigned long>(unsigned long *, size_t);
+template void simd_sinh<unsigned long long>(unsigned long long *, size_t);
+template void simd_sinh<unsigned short>(unsigned short *, size_t);
+
+template void simd_cosh<float>(float *, size_t);
+template void simd_cosh<double>(double *, size_t);
+template void simd_cosh<int>(int *, size_t);
+template void simd_cosh<long>(long *, size_t);
+template void simd_cosh<short>(short *, size_t);
+template void simd_cosh<long long>(long long *, size_t);
+template void simd_cosh<unsigned int>(unsigned int *, size_t);
+template void simd_cosh<unsigned long>(unsigned long *, size_t);
+template void simd_cosh<unsigned long long>(unsigned long long *, size_t);
+template void simd_cosh<unsigned short>(unsigned short *, size_t);
+
+template void simd_tanh<float>(float *, size_t);
+template void simd_tanh<double>(double *, size_t);
+template void simd_tanh<int>(int *, size_t);
+template void simd_tanh<long>(long *, size_t);
+template void simd_tanh<short>(short *, size_t);
+template void simd_tanh<long long>(long long *, size_t);
+template void simd_tanh<unsigned int>(unsigned int *, size_t);
+template void simd_tanh<unsigned long>(unsigned long *, size_t);
+template void simd_tanh<unsigned long long>(unsigned long long *, size_t);
+template void simd_tanh<unsigned short>(unsigned short *, size_t);
+
+template void simd_arcsinh<float>(float *, size_t);
+template void simd_arcsinh<double>(double *, size_t);
+template void simd_arcsinh<int>(int *, size_t);
+template void simd_arcsinh<long>(long *, size_t);
+template void simd_arcsinh<short>(short *, size_t);
+template void simd_arcsinh<long long>(long long *, size_t);
+template void simd_arcsinh<unsigned int>(unsigned int *, size_t);
+template void simd_arcsinh<unsigned long>(unsigned long *, size_t);
+template void simd_arcsinh<unsigned long long>(unsigned long long *, size_t);
+template void simd_arcsinh<unsigned short>(unsigned short *, size_t);
+
+template void simd_arccosh<float>(float *, size_t);
+template void simd_arccosh<double>(double *, size_t);
+template void simd_arccosh<int>(int *, size_t);
+template void simd_arccosh<long>(long *, size_t);
+template void simd_arccosh<short>(short *, size_t);
+template void simd_arccosh<long long>(long long *, size_t);
+template void simd_arccosh<unsigned int>(unsigned int *, size_t);
+template void simd_arccosh<unsigned long>(unsigned long *, size_t);
+template void simd_arccosh<unsigned long long>(unsigned long long *, size_t);
+template void simd_arccosh<unsigned short>(unsigned short *, size_t);
+
+template void simd_arctanh<float>(float *, size_t);
+template void simd_arctanh<double>(double *, size_t);
+template void simd_arctanh<int>(int *, size_t);
+template void simd_arctanh<long>(long *, size_t);
+template void simd_arctanh<short>(short *, size_t);
+template void simd_arctanh<long long>(long long *, size_t);
+template void simd_arctanh<unsigned int>(unsigned int *, size_t);
+template void simd_arctanh<unsigned long>(unsigned long *, size_t);
+template void simd_arctanh<unsigned long long>(unsigned long long *, size_t);
+template void simd_arctanh<unsigned short>(unsigned short *, size_t);
+
+template void simd_sec<float>(float *, size_t);
+template void simd_sec<double>(double *, size_t);
+template void simd_sec<int>(int *, size_t);
+template void simd_sec<long>(long *, size_t);
+template void simd_sec<short>(short *, size_t);
+template void simd_sec<long long>(long long *, size_t);
+template void simd_sec<unsigned int>(unsigned int *, size_t);
+template void simd_sec<unsigned long>(unsigned long *, size_t);
+template void simd_sec<unsigned long long>(unsigned long long *, size_t);
+template void simd_sec<unsigned short>(unsigned short *, size_t);
+
+template void simd_cosec<float>(float *, size_t);
+template void simd_cosec<double>(double *, size_t);
+template void simd_cosec<int>(int *, size_t);
+template void simd_cosec<long>(long *, size_t);
+template void simd_cosec<short>(short *, size_t);
+template void simd_cosec<long long>(long long *, size_t);
+template void simd_cosec<unsigned int>(unsigned int *, size_t);
+template void simd_cosec<unsigned long>(unsigned long *, size_t);
+template void simd_cosec<unsigned long long>(unsigned long long *, size_t);
+template void simd_cosec<unsigned short>(unsigned short *, size_t);
+
+template void simd_arcsec<float>(float *, size_t);
+template void simd_arcsec<double>(double *, size_t);
+template void simd_arcsec<int>(int *, size_t);
+template void simd_arcsec<long>(long *, size_t);
+template void simd_arcsec<short>(short *, size_t);
+template void simd_arcsec<long long>(long long *, size_t);
+template void simd_arcsec<unsigned int>(unsigned int *, size_t);
+template void simd_arcsec<unsigned long>(unsigned long *, size_t);
+template void simd_arcsec<unsigned long long>(unsigned long long *, size_t);
+template void simd_arcsec<unsigned short>(unsigned short *, size_t);
+
+template void simd_arccosec<float>(float *, size_t);
+template void simd_arccosec<double>(double *, size_t);
+template void simd_arccosec<int>(int *, size_t);
+template void simd_arccosec<long>(long *, size_t);
+template void simd_arccosec<short>(short *, size_t);
+template void simd_arccosec<long long>(long long *, size_t);
+template void simd_arccosec<unsigned int>(unsigned int *, size_t);
+template void simd_arccosec<unsigned long>(unsigned long *, size_t);
+template void simd_arccosec<unsigned long long>(unsigned long long *, size_t);
+template void simd_arccosec<unsigned short>(unsigned short *, size_t);
