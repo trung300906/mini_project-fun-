@@ -1,0 +1,56 @@
+# Core dependencies
+phonenumbers>=8.13.0
+requests>=2.31.0
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.2
+
+# Machine Learning
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Deep Learning (optional)
+tensorflow>=2.13.0
+torch>=2.0.0
+transformers>=4.30.0
+
+# Database
+sqlite3  # Built-in Python module
+
+# Caching
+# No external dependencies for basic caching
+
+# Configuration
+PyYAML>=6.0
+dataclasses>=0.6  # For Python < 3.7
+
+# Logging
+# No external dependencies for basic logging
+
+# Visualization and Reports
+matplotlib>=3.7.0
+seaborn>=0.12.0
+jinja2>=3.1.0
+
+# Excel export
+openpyxl>=3.1.0
+
+# Development dependencies
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Documentation
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
+
+# Security
+cryptography>=41.0.0
+
+# Optional: For advanced features
+# redis>=4.6.0  # For Redis caching
+# psycopg2-binary>=2.9.0  # For PostgreSQL
+# pymongo>=4.4.0  # For MongoDB
