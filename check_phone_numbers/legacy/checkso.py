@@ -1155,7 +1155,7 @@ def main():
         
         elif choice == '3':
             try:
-                with open("checkso.txt", "r", encoding="utf-8") as f:
+                with open("/mnt/mydatadrive/CODE/src/check_phone_numbers/legacy/checkso.txt", "r", encoding="utf-8") as f:
                     content = f.read()
                     # Tách bằng dòng hoặc dấu phẩy
                     raw_numbers = re.split(r'[\n,]+', content)
